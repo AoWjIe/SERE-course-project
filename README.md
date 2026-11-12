@@ -4,9 +4,9 @@ This repository contains the reproducible course-project implementation used by 
 
 ## Group members
 
-- Wang Lei (王磊)
-- Ao Wenjie (敖文杰)
-- Liu Jinyu (刘劲宇)
+- 王磊
+- 敖文杰
+- 刘劲宇
 
 ## Scope
 
