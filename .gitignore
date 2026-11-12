@@ -1,0 +1,23 @@
+# Local secrets
+env.local
+.env
+.env.local
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Downloaded models and generated ConceptNet artifacts
+data/conceptnet/
+nodes.csv
+edges.csv
+*.joblib
+runtime/
+
+# Course-report artifacts are distributed separately
+*.docx
+*.pptx
+*.pdf
+*.rar
+*.zip

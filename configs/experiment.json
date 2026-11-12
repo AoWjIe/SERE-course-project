@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "dataset": "EventStoryLine / ESC_ECI.sample1000.jsonl",
+  "split": "document-level 60/20/20",
+  "label": "bi_causal_label",
+  "joint_weights": {"conceptual_path_proxy": 0.5, "syntax_tree_proxy": 0.5},
+  "E0": {"method": "archived GPT-4 zero-shot"},
+  "E1": {"method": "SERE-local", "k": 2},
+  "E2": {"method": "SERE-local", "k": 4, "single_changed_factor": "k"},
+  "threshold_selection": "grid search on dev only",
+  "test_used_for_tuning": false
+}

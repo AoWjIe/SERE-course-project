@@ -1,0 +1,37 @@
+{
+  "seed": 42,
+  "data_sha256": "580601b4e74bf24857e3638b39c903a2b80e08c80727e941a6f2399754a60c79",
+  "source_rows": 1000,
+  "document_counts": {
+    "train": 124,
+    "dev": 41,
+    "test": 41
+  },
+  "sample_counts": {
+    "train": 618,
+    "dev": 161,
+    "test": 221
+  },
+  "positive_counts": {
+    "train": 106,
+    "dev": 39,
+    "test": 43
+  },
+  "tuned_on_dev": {
+    "alpha": 8,
+    "beta": 0,
+    "gamma": 0,
+    "threshold": -0.45,
+    "dev_f1": 0.5142857142857142,
+    "dev_precision": 0.3564356435643564
+  },
+  "paper_defaults": {
+    "w_concept": 0.5,
+    "w_syntax": 0.5,
+    "e1_k": 2,
+    "temperature": 0
+  },
+  "local_reasoner": "archived GPT-4 decision + retrieval margin + causal cue + train-only Bernoulli lexical prior",
+  "local_change_for_e2": "k only: 2 -> 4",
+  "implementation_boundary": "Archived GPT-4 outputs are used only as E0/base signal. Retrieval uses deterministic local proxies; no new external LLM call, Neo4j, ConceptNet, or spaCy parser."
+}
